@@ -1,0 +1,225 @@
+body {
+	font-family: bold;
+	color: #333;
+	line-height: 1.6;
+	margin: 0;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+/* header */
+.container{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+/* intro */
+
+.intro {
+	width: 100%;
+	height: 100vh;
+
+	background: url(intro.png) center no-repeat;
+	background-size: cover;
+}
+
+/* header1 */
+
+.header {
+	width: 100%;
+    padding-top: 25px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+
+
+.head {
+	font-size: 30px;
+	font-weight: 700;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* nav */
+
+.nav{
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.nav1 {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 20px;
+	color: #fff;
+	position: relative;
+	text-decoration: none;
+	transition: color .2s linear;
+}
+
+.nav1:after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 3px;
+	background-color: #fff;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+	display: none;
+}
+
+.nav1:hover {
+	color: #fce38a;
+
+}
+
+.nav1:hover:after {
+	display: block;
+}
+
+
+
+/* section */
+.section {
+	padding: 80px 0;
+}
+
+.sh {
+	width: 100%;
+	max-width: 950px;
+	margin: 0 auto 40px;
+	text-align: center;
+	justify-content: center;
+
+
+}
+
+.section_subtitle {
+	font-size: 34px;
+	font-style: italic;
+}
+
+.section_text {
+	color: #999;
+}
+
+/* About */
+.about {
+	display: flex;
+	justify-content: center;
+
+}
+
+
+.about_img {
+	align-items: center;
+	justify-content: center;
+    
+}
+
+
+
+
+/* Statick */
+
+.statistick {
+	background-color: #eee8aa;
+}
+
+
+.stat {
+	display: flex;
+}
+
+
+
+.stat1 {
+	flex: 1 1 0;
+
+	border-left: 1px solid #fff;
+
+	text-align: center;
+	font-size: 25px;
+	padding: 70px 25px;
+
+}
+
+.stat1:last-child {
+	border-right: 1px solid #fff;
+}
+
+
+/* infotab */
+
+.infotab1 {
+	font-size: 25px;
+	color: skyblue;
+	text-align: left;
+}
+
+
+
+.statistick1 {
+	background-color: #008080;
+}
+
+
+.stats {
+	display: block;
+
+}
+
+
+.stat2 {
+    flex: 1;
+	border-top: 1px solid #fff;
+
+	text-align: center;
+	font-size: 25px;
+	padding: 70px 25px;
+	color: #fff;
+
+}
+
+
+
+
+.end {
+	background-color: #252526;
+
+}
+
+
+.cop {
+	color: #fff;
+	line-height: 3;
+    padding-left: 30px;
+    border-right: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
